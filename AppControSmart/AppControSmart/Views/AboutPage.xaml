@@ -44,7 +44,7 @@
                 </Label>
 
                 <Button Margin="0,10,0,0" Text="Cadastra Device" FontAttributes="Bold"
-                        Command="{Binding OpenWebCommand}"
+                        Clicked="CarregaDevice"
                         BackgroundColor="DarkBlue"
                         TextColor="White" />
             </StackLayout>
