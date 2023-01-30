@@ -7,7 +7,7 @@ using Plugin.Permissions.Abstractions;
 using static Android.Manifest;
 using System.Threading.Tasks;
 using System;
-using FSL.XFApi;
+
 
 namespace AppControSmart.Views
 {
@@ -40,10 +40,12 @@ namespace AppControSmart.Views
 
         protected void CarregaDevice(object sender, EventArgs e)
         {
-            WebApiConfig OWebApiConfig = new WebApiConfig();
+            ConsumoApi Dados = new ConsumoApi();
+        }
+           
             
 
             
-        }
+        
     }
 }
